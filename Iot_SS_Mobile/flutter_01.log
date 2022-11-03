@@ -1,0 +1,49 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d NB1GAS3772017348 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url --devtools-server-address http://127.0.0.1:9100/
+
+## exception
+
+RPCError: getVM: (112) Service has disappeared
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 2.1.0-12.2.pre, on Microsoft Windows [Version 10.0.19042.1052], locale tr-TR)
+    • Flutter version 2.1.0-12.2.pre at C:\src\flutter
+    • Framework revision 5bedb7b1d5 (3 months ago), 2021-03-17 17:06:30 -0700
+    • Engine revision 711ab3fda0
+    • Dart version 2.13.0 (build 2.13.0-116.0.dev)
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+    • Android SDK at C:\Users\brozt\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.2
+    • ANDROID_HOME = C:\Users\brozt\AppData\Local\Android
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/windows#android-setup for more details.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 51.0.1
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] Connected device (3 available)
+    • TA 1012 (mobile) • NB1GAS3772017348 • android-arm64  • Android 9 (API 28)
+    • Chrome (web)     • chrome           • web-javascript • Google Chrome 91.0.4472.114
+    • Edge (web)       • edge             • web-javascript • Microsoft Edge 91.0.864.54
+
+! Doctor found issues in 1 category.
+```
